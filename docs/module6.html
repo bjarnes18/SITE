@@ -32,43 +32,45 @@
         }
         h2 {
             color: #0b3d91;
-            border-bottom: 2px solid #0b3d91;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
         .exercise {
             margin-bottom: 30px;
         }
-        .image-box {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .image-box img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
         ul {
-            list-style: none;
-            padding: 0;
+            list-style-type: none;
+            padding-left: 0;
         }
         ul li::before {
             content: "✔";
             color: green;
             margin-right: 8px;
         }
-        .swot-table {
+        .highlight {
+            font-weight: bold;
+            color: #0b3d91;
+        }
+        .image-box {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .table {
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
         }
-        .swot-table th, .swot-table td {
+        .table th, .table td {
             border: 1px solid #ddd;
             padding: 10px;
             text-align: left;
         }
-        .swot-table th {
+        .table th {
             background-color: #0b3d91;
             color: white;
         }
@@ -91,17 +93,70 @@
         <div class="image-box">
             <img src="image.png" alt="Career Path Test Results">
         </div>
-        <p class="intro-text">
-            In your professional life, you thrive in dynamic environments that challenge your intellect and provide ample opportunities for innovation. Your natural entrepreneurial spirit makes you well-suited for roles that involve strategic planning, problem-solving, and generating new ideas.
-        </p>
+        <p>In your professional life, you thrive in dynamic environments that challenge your intellect and provide ample opportunities for innovation. Your natural entrepreneurial spirit makes you well-suited for roles that involve strategic planning, problem-solving, and generating new ideas.</p>
 
-        <!-- Existing Exercises -->
+        <!-- Exercise 1 -->
         <div class="exercise">
-            <h2>🧠 Exercise 4: Personal SWOT Analysis</h2>
-            <p>Here is my personal SWOT analysis identifying my strengths, weaknesses, opportunities, and threats:</p>
+            <h2>🧠 Exercise 1: Self-Assessment</h2>
+            <ul>
+                <li><span class="highlight">Agree:</span> I thrive in dynamic environments and enjoy solving complex problems.</li>
+                <li><span class="highlight">Not Recognized:</span> I prefer flexibility (Perceiving) rather than structure (Judging).</li>
+                <li><span class="highlight">Work Environment:</span> Innovation and independence over rigid hierarchies.</li>
+            </ul>
+        </div>
+
+        <!-- Exercise 2 -->
+        <div class="exercise">
+            <h2>🔍 Exercise 2: Filling the Blind Spot</h2>
+            <ul>
+                <li><span class="highlight">Appreciation:</span> "You’re reliable, creative, and calm under pressure."</li>
+                <li><span class="highlight">Special Skills:</span> "Your ability to connect with people and solve problems."</li>
+                <li><span class="highlight">Challenges:</span> Balancing perfectionism and deadlines.</li>
+                <li><span class="highlight">Growth Areas:</span> Public speaking, delegating tasks.</li>
+                <li><span class="highlight">Future Role:</span> Leadership role managing projects or teams.</li>
+            </ul>
+            <p><span class="highlight">Skill to Share:</span> I have a passion for writing but rarely share it. I'd like to use this skill more.</p>
+        </div>
+
+        <!-- Johari Window -->
+        <div class="exercise">
+            <h2>🪟 Johari Window</h2>
+            <ul>
+                <li><span class="highlight">Open Area:</span> Reliable, creative, calm under pressure.</li>
+                <li><span class="highlight">Blind Spot:</span> Overly critical, perfectionism slows tasks, seems distant.</li>
+                <li><span class="highlight">Hidden Area:</span> Passion for writing, struggles with public speaking.</li>
+                <li><span class="highlight">Unknown Area:</span> Potential for leadership, adaptability under pressure.</li>
+            </ul>
+        </div>
+
+        <!-- Exercise 3 -->
+        <div class="exercise">
+            <h2>📈 Exercise 3: Skills Development</h2>
+            <p><span class="highlight">Skills I Already Master:</span></p>
+            <ul>
+                <li>Time Management: Using calendar apps to meet deadlines.</li>
+            </ul>
+            <p><span class="highlight">Skills to Develop:</span></p>
+            <ul>
+                <li>Reflection: Spend 15 minutes post-task assessing strengths and weaknesses.</li>
+            </ul>
+        </div>
+
+        <!-- Exercise 4 -->
+        <div class="exercise">
+            <h2>⚖ Exercise 4: Personal SWOT Analysis</h2>
             <div class="image-box">
                 <img src="swot-analysis.png" alt="Personal SWOT Analysis">
             </div>
+        </div>
+
+        <!-- Exercise 5 -->
+        <div class="exercise">
+            <h2>🚀 Exercise 5: Motivators and Demotivators</h2>
+            <ul>
+                <li><span class="highlight">Motivators:</span> Reaching my goals, helping people.</li>
+                <li><span class="highlight">Demotivators:</span> Not being appreciated, strict rules.</li>
+            </ul>
         </div>
     </div>
 
