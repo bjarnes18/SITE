@@ -3,73 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 5 - Time Management and Goals</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Module 5: Time Management and Goals</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f7fa;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f9;
             color: #333;
         }
         header {
-            background: #0b3d91;
+            background-color: #0b3d91;
             color: white;
-            padding: 20px;
             text-align: center;
-            font-size: 1.5rem;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
         }
         .container {
-            max-width: 900px;
+            width: 90%;
+            max-width: 1000px;
             margin: 20px auto;
+            background-color: #fff;
             padding: 20px;
-            background: white;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         h2 {
             color: #0b3d91;
-            margin-bottom: 10px;
-        }
-        h3 {
-            color: #4a90e2;
-            margin-bottom: 5px;
-        }
-        p {
-            line-height: 1.8;
-            margin: 10px 0;
+            border-bottom: 2px solid #0b3d91;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
         }
         ul {
             list-style: none;
             padding: 0;
         }
-        ul li {
-            margin: 10px 0;
-            display: flex;
-            align-items: center;
-        }
-        ul li i {
-            color: #4a90e2;
-            margin-right: 10px;
+        ul li::before {
+            content: "✔";
+            color: green;
+            margin-right: 8px;
         }
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
+            margin-top: 10px;
         }
         table th, table td {
             border: 1px solid #ddd;
-            padding: 10px;
+            padding: 8px;
             text-align: center;
         }
         table th {
             background-color: #0b3d91;
             color: white;
         }
-        .highlight {
-            font-weight: bold;
-            color: #4a90e2;
+        .schedule, .todo {
+            margin-top: 20px;
         }
         footer {
             text-align: center;
@@ -78,23 +69,28 @@
             color: white;
             margin-top: 20px;
         }
+        .icon {
+            display: inline-block;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <i class="fas fa-clock"></i> Module 5: Time Management and Goals
+        <h1>Module 5: Time Management and Goals</h1>
     </header>
+
     <div class="container">
-        <h2><i class="fas fa-heart"></i> My 5 Most Important Values</h2>
+        <h2><span class="icon">⏳</span> My 5 Most Important Values</h2>
         <ul>
-            <li><i class="fas fa-check-circle"></i> <span class="highlight">Integrity:</span> Being honest and doing the right thing in all situations.</li>
-            <li><i class="fas fa-chart-line"></i> <span class="highlight">Growth:</span> Always learning and improving to achieve my goals.</li>
-            <li><i class="fas fa-tasks"></i> <span class="highlight">Responsibility:</span> Taking care of tasks and meeting deadlines.</li>
-            <li><i class="fas fa-hand-holding-heart"></i> <span class="highlight">Empathy:</span> Understanding and helping others in groups.</li>
-            <li><i class="fas fa-balance-scale"></i> <span class="highlight">Balance:</span> Managing time for work, study, and free time.</li>
+            <li><strong>Integrity:</strong> Being honest and doing the right thing in all situations.</li>
+            <li><strong>Growth:</strong> Always learning and improving to achieve goals.</li>
+            <li><strong>Responsibility:</strong> Taking care of tasks and meeting deadlines.</li>
+            <li><strong>Empathy:</strong> Understanding and helping others.</li>
+            <li><strong>Balance:</strong> Managing time for work, study, and free time.</li>
         </ul>
 
-        <h2><i class="fas fa-clipboard-list"></i> A and B Objectives</h2>
+        <h2><span class="icon">🎯</span> A and B Objectives</h2>
         <table>
             <tr>
                 <th>A Objectives (Most Important)</th>
@@ -118,26 +114,26 @@
             </tr>
         </table>
 
-        <h2><i class="fas fa-bullseye"></i> SMART Objectives</h2>
-        <h3>1. Improve time management skills</h3>
+        <h2><span class="icon">📈</span> SMART Objectives</h2>
         <ul>
-            <li><i class="fas fa-check"></i> <span class="highlight">Specific:</span> Make a weekly schedule for study, lessons, and breaks.</li>
-            <li><i class="fas fa-chart-bar"></i> <span class="highlight">Measurable:</span> Follow the schedule 90% of the time.</li>
-            <li><i class="fas fa-cogs"></i> <span class="highlight">Achievable:</span> Use Google Calendar and reminders.</li>
-            <li><i class="fas fa-flag-checkered"></i> <span class="highlight">Relevant:</span> Helps me balance studies and activities.</li>
-            <li><i class="fas fa-clock"></i> <span class="highlight">Time-Bound:</span> Start this week and check progress in two weeks.</li>
-        </ul>
-        <h3>2. Learn digital marketing strategies</h3>
-        <ul>
-            <li><i class="fas fa-check"></i> <span class="highlight">Specific:</span> Practice at least three tools in assignments.</li>
-            <li><i class="fas fa-chart-bar"></i> <span class="highlight">Measurable:</span> Finish tasks and get feedback.</li>
-            <li><i class="fas fa-cogs"></i> <span class="highlight">Achievable:</span> Spend 3 hours weekly on practice.</li>
-            <li><i class="fas fa-flag-checkered"></i> <span class="highlight">Relevant:</span> Needed for my career.</li>
-            <li><i class="fas fa-clock"></i> <span class="highlight">Time-Bound:</span> Complete by the semester's end.</li>
+            <li><strong>Improve time management skills:</strong><br>
+                - <em>Specific:</em> Weekly schedule for study, lessons, and breaks.<br>
+                - <em>Measurable:</em> Follow the schedule 90% of the time.<br>
+                - <em>Achievable:</em> Use Google Calendar and reminders.<br>
+                - <em>Relevant:</em> Balance studies and activities.<br>
+                - <em>Time-Bound:</em> Start this week, review in 2 weeks.
+            </li>
+            <li><strong>Learn digital marketing strategies:</strong><br>
+                - <em>Specific:</em> Practice three tools in assignments.<br>
+                - <em>Measurable:</em> Finish tasks, get feedback.<br>
+                - <em>Achievable:</em> Spend 3 hours weekly.<br>
+                - <em>Relevant:</em> Needed for my career.<br>
+                - <em>Time-Bound:</em> Finish by semester end.
+            </li>
         </ul>
 
-        <h2><i class="fas fa-calendar-alt"></i> Weekly Schedule</h2>
-        <table>
+        <h2><span class="icon">📅</span> Weekly Schedule</h2>
+        <table class="schedule">
             <tr>
                 <th>Day</th>
                 <th>Activity</th>
@@ -145,7 +141,7 @@
             </tr>
             <tr>
                 <td>Monday</td>
-                <td>Work on Digital Business tasks</td>
+                <td>Work on Digital Business tasks (Detective Blogger)</td>
                 <td>9:00 AM - 6:30 PM</td>
             </tr>
             <tr>
@@ -155,12 +151,12 @@
             </tr>
             <tr>
                 <td>Wednesday</td>
-                <td>Attend lessons: ORM Strategies</td>
+                <td>Attend lessons: ORM Strategies, Module 6 prep</td>
                 <td>8:30 AM - 11:30 AM</td>
             </tr>
             <tr>
                 <td>Thursday</td>
-                <td>Module 6 preparation tasks</td>
+                <td>Start Module 6 preparation tasks</td>
                 <td>2:00 PM - 5:00 PM</td>
             </tr>
             <tr>
@@ -170,15 +166,25 @@
             </tr>
         </table>
 
-        <h2><i class="fas fa-tools"></i> Planning Tool Evaluation</h2>
-        <p><span class="highlight">Tool:</span> Google Calendar</p>
+        <h2><span class="icon">📝</span> To-Do List for the Week</h2>
+        <ul class="todo">
+            <li>Submit Detective Blogger assignment.</li>
+            <li>Submit Building Digital Marketing Strategies.</li>
+            <li>Review Digital Business Technologies lessons.</li>
+            <li>Prepare for ORM Strategies.</li>
+            <li>Work on Module 6 preparation tasks.</li>
+        </ul>
+
+        <h2><span class="icon">🔧</span> Planning Tool Evaluation</h2>
+        <p><strong>Tool: Google Calendar</strong></p>
         <ul>
-            <li><i class="fas fa-plus-circle"></i> <span class="highlight">Pros:</span> Easy to use, keeps tasks organized, and sends reminders.</li>
-            <li><i class="fas fa-minus-circle"></i> <span class="highlight">Cons:</span> Can feel overwhelming if overloaded and requires regular updates.</li>
+            <li><strong>Pros:</strong> Easy to use, organizes deadlines, sends reminders.</li>
+            <li><strong>Cons:</strong> Can feel overwhelming, needs regular updates.</li>
         </ul>
     </div>
+
     <footer>
-        &copy; 2024 Personal and Career Development - Module 5
+        <p>&copy; 2024 My Portfolio - Personal and Career Development</p>
     </footer>
 </body>
 </html>
