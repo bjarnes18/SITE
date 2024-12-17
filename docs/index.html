@@ -5,117 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio - Personal and Career Development 24/25</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #0b3d91, #4a90e2, #87ceeb);
-            color: #f9f9f9;
-        }
-        header {
-            background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f') no-repeat center center/cover;
-            color: #fff;
-            text-align: center;
-            padding: 80px 20px;
-            position: relative;
-        }
-        header::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(11, 61, 145, 0.5);
-        }
-        header h1 {
-            margin: 0;
-            font-size: 3rem;
-            letter-spacing: 1.5px;
-            position: relative;
-            z-index: 2;
-            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
-        }
-        header p {
-            font-size: 1.3rem;
-            margin-top: 10px;
-            position: relative;
-            z-index: 2;
-        }
-        .intro {
-            background: #f4f9ff;
-            color: #333;
-            text-align: center;
-            padding: 50px 20px;
-            border-top-left-radius: 50px;
-            border-top-right-radius: 50px;
-        }
-        .intro h2 {
-            font-size: 2.5rem;
-            color: #0b3d91;
-            margin-bottom: 15px;
-        }
-        .intro p {
-            font-size: 1.2rem;
-            line-height: 1.8;
-            max-width: 800px;
-            margin: auto;
-        }
-        .modules {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 40px 20px;
-            background-color: #0b3d91;
-        }
-        .module-card {
-            background: #fff;
-            color: #333;
-            width: 300px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
-            text-align: center;
-            transition: transform 0.3s;
-        }
-        .module-card:hover {
-            transform: translateY(-10px);
-        }
-        .module-card img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-        }
-        .module-card h3 {
-            margin: 15px 0 10px;
-            color: #0b3d91;
-        }
-        .module-card p {
-            padding: 0 15px 20px;
-            font-size: 1rem;
-        }
-        .module-card a {
-            display: inline-block;
-            margin: 10px 0 20px;
-            padding: 10px 20px;
-            background-color: #4a90e2;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background 0.3s;
-        }
-        .module-card a:hover {
-            background-color: #0b3d91;
-        }
-        footer {
-            background: #0b3d91;
-            color: #fff;
-            text-align: center;
-            padding: 15px 0;
-            margin-top: 20px;
-        }
+        body { margin: 0; padding: 0; font-family: Arial, sans-serif; background: #f9f9f9; color: #333; }
+        header { background: #0b3d91; color: white; text-align: center; padding: 40px 20px; }
+        header h1 { margin: 0; font-size: 3rem; }
+        .intro { text-align: center; padding: 20px; background: #e1f5fe; color: #0b3d91; }
+        .modules { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+        .module-card { background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); width: 300px; text-align: center; overflow: hidden; }
+        .module-card img { width: 100%; height: 150px; object-fit: cover; }
+        .module-card h3 { color: #0b3d91; margin: 15px 0; }
+        .module-card a { display: inline-block; margin: 10px 0 20px; padding: 10px 20px; background: #4a90e2; color: white; text-decoration: none; border-radius: 5px; }
+        footer { background: #0b3d91; color: white; text-align: center; padding: 10px 0; margin-top: 20px; }
     </style>
 </head>
 <body>
@@ -123,54 +22,44 @@
         <h1>Explore My Portfolio</h1>
         <p>Discover My Learning, Reflection, and Growth</p>
     </header>
-
-    <section class="intro">
+    <div class="intro">
         <h2>Welcome to My Personal and Career Development Journey</h2>
-        <p>Each module showcases my achievements, reflections, and skills gained during this academic year. Use the sections below to explore the different aspects of my growth.</p>
-    </section>
-
-    <section class="modules">
+        <p>Click on the modules below to explore each part of my portfolio.</p>
+    </div>
+    <div class="modules">
         <div class="module-card">
             <img src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31" alt="Teamwork">
             <h3>Module 1</h3>
-            <p>Teams and Teamwork: Collaboration, roles, and effective communication.</p>
             <a href="module1.html">Explore</a>
         </div>
         <div class="module-card">
             <img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546" alt="Brainstorming">
             <h3>Module 2</h3>
-            <p>Brainstorming and Interviewing Techniques for Research Projects.</p>
             <a href="module2.html">Explore</a>
         </div>
         <div class="module-card">
             <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4" alt="Business Student">
             <h3>Module 3</h3>
-            <p>Business Student of Today: Adapting to the modern business world.</p>
             <a href="module3.html">Explore</a>
         </div>
         <div class="module-card">
-            <img src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8" alt="Progress Sprint 1">
+            <img src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8" alt="Sprint Progress">
             <h3>Module 4</h3>
-            <p>Supervision: Reflecting on progress after Sprint 1.</p>
             <a href="module4.html">Explore</a>
         </div>
         <div class="module-card">
             <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe" alt="Time Management">
             <h3>Module 5</h3>
-            <p>Time Management: Strategies for efficient task allocation.</p>
             <a href="module5.html">Explore</a>
         </div>
         <div class="module-card">
             <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f" alt="Self-awareness">
             <h3>Module 6</h3>
-            <p>Self-awareness and self-regulated learning for personal growth.</p>
             <a href="module6.html">Explore</a>
         </div>
-    </section>
-
+    </div>
     <footer>
         <p>&copy; 2024 My Portfolio - Personal and Career Development</p>
     </footer>
 </body>
 </html>
-
