@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCD Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explore My Portfolio</h1>
+        <p>Discover My Learning, Reflection, and Growth</p>
+    </header>
+    
+    <section class="intro">
+        <h2>Welcome to My Personal and Career Development Journey</h2>
+        <p>Click on the modules below to explore each part of my portfolio.</p>
+    </section>
+    
+    <section class="modules">
+        <div class="module">
+            <img src="module1.jpg" alt="Module 1">
+            <h3>Module 1</h3>
+            <a href="#">Explore</a>
+        </div>
+        <div class="module">
+            <img src="module2.jpg" alt="Module 2">
+            <h3>Module 2</h3>
+            <a href="#">Explore</a>
+        </div>
+        <div class="module">
+            <img src="module3.jpg" alt="Module 3">
+            <h3>Module 3</h3>
+            <a href="#">Explore</a>
+        </div>
+        <div class="module">
+            <img src="module8.jpg" alt="Module 8">
+            <h3>Module 8</h3>
+            <a href="module8.html">Explore</a>
+        </div>
+        <div class="module">
+            <img src="module9.jpg" alt="Module 9 - Talents">
+            <h3>Module 9</h3>
+            <a href="module9.html">Explore</a>
+        </div>
+    </section>
+</body>
+</html>
