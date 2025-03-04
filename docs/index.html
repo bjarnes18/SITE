@@ -49,35 +49,51 @@
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
-        .modules {
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .section p, .section ul {
+            margin: 10px 0;
+        }
+        .section ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .highlight {
+            background-color: #008CBA;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .module-section {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 20px;
+            margin-top: 20px;
         }
         .module {
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
+            padding: 10px;
             text-align: center;
             width: 250px;
-        }
-        .module img {
-            width: 100%;
-            height: auto;
-        }
-        .module h3 {
-            margin: 10px 0;
         }
         .module a {
             display: inline-block;
             background: #008CBA;
             color: #fff;
             padding: 10px 15px;
-            margin-bottom: 10px;
             text-decoration: none;
             border-radius: 5px;
+            margin-top: 10px;
         }
         .module a:hover {
             background: #005f73;
@@ -100,49 +116,25 @@
         <p>A Personal Learning Journey</p>
     </header>
 
+    <nav>
+        <a href="#intro">Introduction</a>
+        <a href="#module3">Marketing</a>
+        <a href="#module4">Reflection</a>
+        <a href="#module5">Growth</a>
+        <a href="#final">Final Reflection</a>
+    </nav>
+
     <div class="container">
-        <section class="modules">
+        <div class="module-section">
             <div class="module">
-                <img src="module1.jpg" alt="Module 1">
-                <h3>Module 1</h3>
-                <a href="#">Explore</a>
-            </div>
-            <div class="module">
-                <img src="module2.jpg" alt="Module 2">
-                <h3>Module 2</h3>
-                <a href="#">Explore</a>
-            </div>
-            <div class="module">
-                <img src="module3.jpg" alt="Module 3">
-                <h3>Module 3</h3>
-                <a href="#">Explore</a>
-            </div>
-            <div class="module">
-                <img src="module4.jpg" alt="Module 4">
-                <h3>Module 4</h3>
-                <a href="#">Explore</a>
-            </div>
-            <div class="module">
-                <img src="module5.jpg" alt="Module 5">
-                <h3>Module 5</h3>
-                <a href="#">Explore</a>
-            </div>
-            <div class="module">
-                <img src="module6.jpg" alt="Module 6">
-                <h3>Module 6</h3>
-                <a href="#">Explore</a>
-            </div>
-            <div class="module">
-                <img src="module8.jpg" alt="Module 8">
                 <h3>Module 8</h3>
                 <a href="module8.html">Explore</a>
             </div>
             <div class="module">
-                <img src="module9.jpg" alt="Module 9">
                 <h3>Module 9</h3>
                 <a href="module9.html">Explore</a>
             </div>
-        </section>
+        </div>
     </div>
 
     <footer>
