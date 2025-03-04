@@ -3,63 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Personal and Career Development 24/25</title>
+    <title>My Reflection & Growth: Sprint 1</title>
     <style>
-        body { margin: 0; padding: 0; font-family: Arial, sans-serif; background: #f9f9f9; color: #333; }
-        header { background: #0b3d91; color: white; text-align: center; padding: 40px 20px; }
-        header h1 { margin: 0; font-size: 3rem; }
-        .intro { text-align: center; padding: 20px; background: #e1f5fe; color: #0b3d91; }
-        .modules { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
-        .module-card { background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); width: 300px; text-align: center; overflow: hidden; }
-        .module-card img { width: 100%; height: 150px; object-fit: cover; }
-        .module-card h3 { color: #0b3d91; margin: 15px 0; }
-        .module-card a { display: inline-block; margin: 10px 0 20px; padding: 10px 20px; background: #4a90e2; color: white; text-decoration: none; border-radius: 5px; }
-        footer { background: #0b3d91; color: white; text-align: center; padding: 10px 0; margin-top: 20px; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #4CAF50, #008CBA);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .section p, .section ul {
+            margin: 10px 0;
+        }
+        .section ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .highlight {
+            background-color: #008CBA;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Explore My Portfolio</h1>
-        <p>Discover My Learning, Reflection, and Growth</p>
+        <h1>My Reflection & Growth: Sprint 1</h1>
+        <p>A Personal Learning Journey</p>
     </header>
-    <div class="intro">
-        <h2>Welcome to My Personal and Career Development Journey</h2>
-        <p>Click on the modules below to explore each part of my portfolio.</p>
+
+    <nav>
+        <a href="#intro">Introduction</a>
+        <a href="#module3">Marketing</a>
+        <a href="#module4">Reflection</a>
+        <a href="#module5">Growth</a>
+        <a href="#final">Final Reflection</a>
+        <a href="#module9">Talents</a>
+    </nav>
+
+    <div class="container">
+        <div id="intro" class="section">
+            <h2>Introduction</h2>
+            <p>Welcome to my reflection portfolio for Sprint 1. In this portfolio, I share my challenges, successes, and growth. It's a journey of learning, improvement, and self-discovery.</p>
+        </div>
+
+        <div id="module3" class="section">
+            <h2>Module 3: Marketing Management</h2>
+            <p><strong>Key Takeaways:</strong></p>
+            <ul>
+                <li>Understanding the 4 P's of Marketing: Product, Price, Promotion, and Place.</li>
+                <li>Challenges faced: Missing classes made the theory difficult to grasp.</li>
+            </ul>
+            <div class="highlight">Lesson Learned: Attend all classes and engage with the theory early!</div>
+        </div>
+
+        <div id="module4" class="section">
+            <h2>Module 4: Sprint Reflection</h2>
+            <p><strong>Success:</strong> Accounting went well because it was practical and engaging.</p>
+            <p><strong>Challenges:</strong> Marketing required more time than I had allocated. </p>
+            <p><strong>Takeaway:</strong> Start studying earlier and stick to a plan.</p>
+        </div>
+
+        <div id="module5" class="section">
+            <h2>Module 5: Personal Growth</h2>
+            <p><strong>My 5 Core Values:</strong></p>
+            <ul>
+                <li>Integrity</li>
+                <li>Growth</li>
+                <li>Responsibility</li>
+                <li>Empathy</li>
+                <li>Balance</li>
+            </ul>
+            <p><strong>SMART Goal:</strong> Improve time management by creating and following a weekly schedule.</p>
+            <div class="highlight">"Small steps lead to big success!"</div>
+        </div>
+
+        <div id="final" class="section">
+            <h2>Final Reflection</h2>
+            <p>Through Sprint 1, I learned the importance of preparation, consistency, and managing my time effectively.</p>
+            <p><strong>Looking Forward:</strong> My goal is to improve my study habits and motivation, even for subjects I find challenging.</p>
+            <p><strong>Learning Question:</strong> How can I stay motivated to study subjects I find boring and still perform well in them?</p>
+        </div>
+
+        <div id="module9" class="section">
+            <h2>Module 9: Discovering and Developing Talents</h2>
+            <p>Talent is the natural ability to excel in certain areas. Recognizing and developing your talents is key to personal and professional growth.</p>
+            <p><strong>How to Develop Talents:</strong></p>
+            <ul>
+                <li>Practice consistently to refine skills.</li>
+                <li>Seek mentorship and learn from experts.</li>
+                <li>Challenge yourself with new experiences.</li>
+                <li>Stay committed and set clear goals.</li>
+            </ul>
+            <img src="talent-development.jpg" alt="Talent Development" style="width:100%; max-width:600px; display:block; margin:auto;">
+        </div>
     </div>
-    <div class="modules">
-        <div class="module-card">
-            <img src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31" alt="Teamwork">
-            <h3>Module 1</h3>
-            <a href="module1.html">Explore</a>
-        </div>
-        <div class="module-card">
-            <img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546" alt="Brainstorming">
-            <h3>Module 2</h3>
-            <a href="module2.html">Explore</a>
-        </div>
-        <div class="module-card">
-            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4" alt="Business Student">
-            <h3>Module 3</h3>
-            <a href="module3.html">Explore</a>
-        </div>
-        <div class="module-card">
-            <img src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8" alt="Sprint Progress">
-            <h3>Module 4</h3>
-            <a href="module4.html">Explore</a>
-        </div>
-        <div class="module-card">
-            <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe" alt="Time Management">
-            <h3>Module 5</h3>
-            <a href="module5.html">Explore</a>
-        </div>
-        <div class="module-card">
-            <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f" alt="Self-awareness">
-            <h3>Module 6</h3>
-            <a href="module6.html">Explore</a>
-        </div>
-    </div>
+
     <footer>
-        <p>&copy; 2024 My Portfolio - Personal and Career Development</p>
+        <p>&copy; 2024 My Reflection & Growth | Designed for Creativity</p>
     </footer>
 </body>
 </html>
+
